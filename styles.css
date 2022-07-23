@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+
+body{
+    font-family: 'Kiwi Maru', serif;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.heading{
+    margin: 4rem 0rem;
+    font-size: 3rem;
+}
+
+.input{
+    display: block;
+    margin: 1.5rem;
+    font-size: 1.5rem;
+}
+
+#stock-price, #stock-qty, #current-price{
+    text-align: center;
+}
+
+#submit-btn{
+    background-color:rgb(23, 151, 211);
+    width: 10rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+    font-size: 1.25rem;
+    margin: 1rem;
+    border: 3px solid black;
+}
+
+#result{
+    margin: 1rem;
+    font-size: 2rem;
+}
